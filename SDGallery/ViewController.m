@@ -7,21 +7,21 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
-
-@end
+#import "SDGallery.h"
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        
+        NSArray *images = @[[UIImage imageNamed:@"1"], [UIImage imageNamed:@"2"]];
+        SDGallery *viewController = [[SDGallery alloc] initWithImages:images];
+        [self presentViewController:viewController animated:YES completion:nil];
+        
+    });
+    
 }
 
 @end
