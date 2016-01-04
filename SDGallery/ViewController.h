@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIViewControllerTransitioningDelegate>
 
 @property (strong, nonatomic) IBOutlet UIImageView *imageView;
 

@@ -9,11 +9,6 @@
 #import "SDGallery.h"
 #import "SDGalleryCell.h"
 
-@interface SDGallery ()
-
-
-@end
-
 @implementation SDGallery
 
 - (id)initWithImages:(NSArray *)images {
@@ -32,12 +27,16 @@
     layout.minimumLineSpacing = 0.0f;
     
     self.collectionView = [[UICollectionView alloc] initWithFrame:self.view.frame collectionViewLayout:layout];
-    self.collectionView.backgroundColor = [UIColor orangeColor];
+    self.collectionView.backgroundColor = [UIColor clearColor];
     self.collectionView.delegate = self;
     self.collectionView.dataSource = self;
     self.collectionView.pagingEnabled = YES;
     [self.collectionView registerClass:[SDGalleryCell class] forCellWithReuseIdentifier:@"Cell"];
     [self.view addSubview:self.collectionView];
+}
+
+- (BOOL)prefersStatusBarHidden {
+    return YES;
 }
 
 #pragma mark - UICollectionView Delegate & DataSource
@@ -52,8 +51,7 @@
     if (!cell)
         cell = [[SDGalleryCell alloc] initWithFrame:collectionView.frame];
     
-    cell.imageView.image = _images[indexPath.row];
-    cell.backgroundColor = [UIColor greenColor];
+    [cell setImage:_images[indexPath.row]];
     
     return cell;
 }
@@ -61,5 +59,19 @@
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
     return collectionView.frame.size;
 }
+
+-(void)dismissGalleryToSource {
+
+    CGRect visibleRect = (CGRect){.origin = self.collectionView.contentOffset, .size = self.collectionView.bounds.size};
+    CGPoint visiblePoint = CGPointMake(CGRectGetMidX(visibleRect), CGRectGetMidY(visibleRect));
+    NSIndexPath *visibleIndexPath = [self.collectionView indexPathForItemAtPoint:visiblePoint];
+    SDGalleryCell *cell = (SDGalleryCell*)[self.collectionView cellForItemAtIndexPath:visibleIndexPath];
+    
+    self.currentlyVisibleImage = cell.imageView;
+    self.currentlyVisibleScrollView = cell.scrollView;
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
 
 @end
