@@ -7,34 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A06EE341C3133A3009AB571 /* SDGalleryTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A06EE331C3133A3009AB571 /* SDGalleryTransition.m */; };
-		9A886B071C30430800C146C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A886B061C30430800C146C6 /* main.m */; };
-		9A886B0A1C30430800C146C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A886B091C30430800C146C6 /* AppDelegate.m */; };
-		9A886B0D1C30430800C146C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A886B0C1C30430800C146C6 /* ViewController.m */; };
-		9A886B101C30430800C146C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A886B0E1C30430800C146C6 /* Main.storyboard */; };
-		9A886B121C30430800C146C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A886B111C30430800C146C6 /* Assets.xcassets */; };
-		9A886B151C30430800C146C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A886B131C30430800C146C6 /* LaunchScreen.storyboard */; };
-		9A886B1E1C30432A00C146C6 /* SDGallery.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A886B1D1C30432A00C146C6 /* SDGallery.m */; };
-		9A886B211C30450100C146C6 /* SDGalleryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A886B201C30450100C146C6 /* SDGalleryCell.m */; };
+		9A06EE441C3AD0CA009AB571 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A06EE381C3AD0CA009AB571 /* AppDelegate.m */; };
+		9A06EE451C3AD0CA009AB571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A06EE391C3AD0CA009AB571 /* Assets.xcassets */; };
+		9A06EE461C3AD0CA009AB571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A06EE3A1C3AD0CA009AB571 /* LaunchScreen.storyboard */; };
+		9A06EE471C3AD0CA009AB571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A06EE3C1C3AD0CA009AB571 /* Main.storyboard */; };
+		9A06EE481C3AD0CA009AB571 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A06EE3E1C3AD0CA009AB571 /* Info.plist */; };
+		9A06EE491C3AD0CA009AB571 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A06EE411C3AD0CA009AB571 /* main.m */; };
+		9A06EE4A1C3AD0CA009AB571 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A06EE431C3AD0CA009AB571 /* ViewController.m */; };
+		9A06EE541C3AD0EA009AB571 /* SDGallery.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A06EE4F1C3AD0EA009AB571 /* SDGallery.m */; };
+		9A06EE551C3AD0EA009AB571 /* SDGalleryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A06EE511C3AD0EA009AB571 /* SDGalleryCell.m */; };
+		9A06EE561C3AD0EA009AB571 /* SDGalleryTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A06EE531C3AD0EA009AB571 /* SDGalleryTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9A06EE321C3133A3009AB571 /* SDGalleryTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDGalleryTransition.h; sourceTree = "<group>"; };
-		9A06EE331C3133A3009AB571 /* SDGalleryTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDGalleryTransition.m; sourceTree = "<group>"; };
+		9A06EE371C3AD0CA009AB571 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A06EE381C3AD0CA009AB571 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A06EE391C3AD0CA009AB571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A06EE3B1C3AD0CA009AB571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A06EE3D1C3AD0CA009AB571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A06EE3E1C3AD0CA009AB571 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A06EE411C3AD0CA009AB571 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A06EE421C3AD0CA009AB571 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A06EE431C3AD0CA009AB571 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A06EE4E1C3AD0EA009AB571 /* SDGallery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDGallery.h; sourceTree = "<group>"; };
+		9A06EE4F1C3AD0EA009AB571 /* SDGallery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDGallery.m; sourceTree = "<group>"; };
+		9A06EE501C3AD0EA009AB571 /* SDGalleryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDGalleryCell.h; sourceTree = "<group>"; };
+		9A06EE511C3AD0EA009AB571 /* SDGalleryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDGalleryCell.m; sourceTree = "<group>"; };
+		9A06EE521C3AD0EA009AB571 /* SDGalleryTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDGalleryTransition.h; sourceTree = "<group>"; };
+		9A06EE531C3AD0EA009AB571 /* SDGalleryTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDGalleryTransition.m; sourceTree = "<group>"; };
 		9A886B021C30430800C146C6 /* SDGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A886B061C30430800C146C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9A886B081C30430800C146C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9A886B091C30430800C146C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9A886B0B1C30430800C146C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9A886B0C1C30430800C146C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9A886B0F1C30430800C146C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9A886B111C30430800C146C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9A886B141C30430800C146C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9A886B161C30430800C146C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A886B1C1C30432A00C146C6 /* SDGallery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDGallery.h; sourceTree = "<group>"; };
-		9A886B1D1C30432A00C146C6 /* SDGallery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDGallery.m; sourceTree = "<group>"; };
-		9A886B1F1C30450100C146C6 /* SDGalleryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDGalleryCell.h; sourceTree = "<group>"; };
-		9A886B201C30450100C146C6 /* SDGalleryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDGalleryCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,25 +49,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9A5CC7191C308D80003546ED /* SDGallery Source */ = {
+		9A06EE361C3AD0CA009AB571 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				9A886B1C1C30432A00C146C6 /* SDGallery.h */,
-				9A886B1D1C30432A00C146C6 /* SDGallery.m */,
-				9A886B1F1C30450100C146C6 /* SDGalleryCell.h */,
-				9A886B201C30450100C146C6 /* SDGalleryCell.m */,
-				9A06EE321C3133A3009AB571 /* SDGalleryTransition.h */,
-				9A06EE331C3133A3009AB571 /* SDGalleryTransition.m */,
+				9A06EE371C3AD0CA009AB571 /* AppDelegate.h */,
+				9A06EE381C3AD0CA009AB571 /* AppDelegate.m */,
+				9A06EE391C3AD0CA009AB571 /* Assets.xcassets */,
+				9A06EE3A1C3AD0CA009AB571 /* LaunchScreen.storyboard */,
+				9A06EE3C1C3AD0CA009AB571 /* Main.storyboard */,
+				9A06EE3E1C3AD0CA009AB571 /* Info.plist */,
+				9A06EE3F1C3AD0CA009AB571 /* Source */,
+				9A06EE401C3AD0CA009AB571 /* Supporting Files */,
+				9A06EE421C3AD0CA009AB571 /* ViewController.h */,
+				9A06EE431C3AD0CA009AB571 /* ViewController.m */,
 			);
-			name = "SDGallery Source";
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		9A06EE3F1C3AD0CA009AB571 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		9A06EE401C3AD0CA009AB571 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A06EE411C3AD0CA009AB571 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A06EE4D1C3AD0EA009AB571 /* SDGallery */ = {
+			isa = PBXGroup;
+			children = (
+				9A06EE4E1C3AD0EA009AB571 /* SDGallery.h */,
+				9A06EE4F1C3AD0EA009AB571 /* SDGallery.m */,
+				9A06EE501C3AD0EA009AB571 /* SDGalleryCell.h */,
+				9A06EE511C3AD0EA009AB571 /* SDGalleryCell.m */,
+				9A06EE521C3AD0EA009AB571 /* SDGalleryTransition.h */,
+				9A06EE531C3AD0EA009AB571 /* SDGalleryTransition.m */,
+			);
 			path = SDGallery;
 			sourceTree = "<group>";
 		};
 		9A886AF91C30430800C146C6 = {
 			isa = PBXGroup;
 			children = (
-				9A5CC7191C308D80003546ED /* SDGallery Source */,
-				9A886B041C30430800C146C6 /* SDGallery */,
+				9A06EE4D1C3AD0EA009AB571 /* SDGallery */,
+				9A06EE361C3AD0CA009AB571 /* Demo */,
 				9A886B031C30430800C146C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,30 +109,6 @@
 				9A886B021C30430800C146C6 /* SDGallery.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		9A886B041C30430800C146C6 /* SDGallery */ = {
-			isa = PBXGroup;
-			children = (
-				9A886B081C30430800C146C6 /* AppDelegate.h */,
-				9A886B091C30430800C146C6 /* AppDelegate.m */,
-				9A886B0B1C30430800C146C6 /* ViewController.h */,
-				9A886B0C1C30430800C146C6 /* ViewController.m */,
-				9A886B0E1C30430800C146C6 /* Main.storyboard */,
-				9A886B111C30430800C146C6 /* Assets.xcassets */,
-				9A886B131C30430800C146C6 /* LaunchScreen.storyboard */,
-				9A886B161C30430800C146C6 /* Info.plist */,
-				9A886B051C30430800C146C6 /* Supporting Files */,
-			);
-			path = SDGallery;
-			sourceTree = "<group>";
-		};
-		9A886B051C30430800C146C6 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9A886B061C30430800C146C6 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,9 +168,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A886B151C30430800C146C6 /* LaunchScreen.storyboard in Resources */,
-				9A886B121C30430800C146C6 /* Assets.xcassets in Resources */,
-				9A886B101C30430800C146C6 /* Main.storyboard in Resources */,
+				9A06EE451C3AD0CA009AB571 /* Assets.xcassets in Resources */,
+				9A06EE471C3AD0CA009AB571 /* Main.storyboard in Resources */,
+				9A06EE461C3AD0CA009AB571 /* LaunchScreen.storyboard in Resources */,
+				9A06EE481C3AD0CA009AB571 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,32 +182,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A886B0D1C30430800C146C6 /* ViewController.m in Sources */,
-				9A886B1E1C30432A00C146C6 /* SDGallery.m in Sources */,
-				9A886B211C30450100C146C6 /* SDGalleryCell.m in Sources */,
-				9A886B0A1C30430800C146C6 /* AppDelegate.m in Sources */,
-				9A06EE341C3133A3009AB571 /* SDGalleryTransition.m in Sources */,
-				9A886B071C30430800C146C6 /* main.m in Sources */,
+				9A06EE4A1C3AD0CA009AB571 /* ViewController.m in Sources */,
+				9A06EE541C3AD0EA009AB571 /* SDGallery.m in Sources */,
+				9A06EE551C3AD0EA009AB571 /* SDGalleryCell.m in Sources */,
+				9A06EE491C3AD0CA009AB571 /* main.m in Sources */,
+				9A06EE561C3AD0EA009AB571 /* SDGalleryTransition.m in Sources */,
+				9A06EE441C3AD0CA009AB571 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9A886B0E1C30430800C146C6 /* Main.storyboard */ = {
+		9A06EE3A1C3AD0CA009AB571 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9A886B0F1C30430800C146C6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9A886B131C30430800C146C6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9A886B141C30430800C146C6 /* Base */,
+				9A06EE3B1C3AD0CA009AB571 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9A06EE3C1C3AD0CA009AB571 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A06EE3D1C3AD0CA009AB571 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -288,7 +297,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SDGallery/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sebastiandobrincu.SDGallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,7 +308,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SDGallery/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sebastiandobrincu.SDGallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
