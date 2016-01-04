@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A06EE311C30A84B009AB571 /* UIView+draggable.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A06EE301C30A84B009AB571 /* UIView+draggable.m */; };
 		9A06EE341C3133A3009AB571 /* SDGalleryTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A06EE331C3133A3009AB571 /* SDGalleryTransition.m */; };
 		9A886B071C30430800C146C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A886B061C30430800C146C6 /* main.m */; };
 		9A886B0A1C30430800C146C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A886B091C30430800C146C6 /* AppDelegate.m */; };
@@ -20,8 +19,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9A06EE2F1C30A84B009AB571 /* UIView+draggable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+draggable.h"; sourceTree = "<group>"; };
-		9A06EE301C30A84B009AB571 /* UIView+draggable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+draggable.m"; sourceTree = "<group>"; };
 		9A06EE321C3133A3009AB571 /* SDGalleryTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDGalleryTransition.h; sourceTree = "<group>"; };
 		9A06EE331C3133A3009AB571 /* SDGalleryTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDGalleryTransition.m; sourceTree = "<group>"; };
 		9A886B021C30430800C146C6 /* SDGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,15 +48,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9A06EE2E1C30A84B009AB571 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				9A06EE2F1C30A84B009AB571 /* UIView+draggable.h */,
-				9A06EE301C30A84B009AB571 /* UIView+draggable.m */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
 		9A5CC7191C308D80003546ED /* SDGallery Source */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,7 +87,6 @@
 				9A886B0B1C30430800C146C6 /* ViewController.h */,
 				9A886B0C1C30430800C146C6 /* ViewController.m */,
 				9A886B0E1C30430800C146C6 /* Main.storyboard */,
-				9A06EE2E1C30A84B009AB571 /* Source */,
 				9A886B111C30430800C146C6 /* Assets.xcassets */,
 				9A886B131C30430800C146C6 /* LaunchScreen.storyboard */,
 				9A886B161C30430800C146C6 /* Info.plist */,
@@ -186,7 +173,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A06EE311C30A84B009AB571 /* UIView+draggable.m in Sources */,
 				9A886B0D1C30430800C146C6 /* ViewController.m in Sources */,
 				9A886B1E1C30432A00C146C6 /* SDGallery.m in Sources */,
 				9A886B211C30450100C146C6 /* SDGalleryCell.m in Sources */,

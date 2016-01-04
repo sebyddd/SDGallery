@@ -8,21 +8,11 @@
 
 #import "ViewController.h"
 #import "SDGallery.h"
-#import "UIView+draggable.h"
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    [_imageView enableDragging];
-    _imageView.userInteractionEnabled = YES;
-    
-    UIView *b = [[UIView alloc]initWithFrame:CGRectMake(100, 400, 100, 80)];
-    [b setBackgroundColor:[UIColor orangeColor]];
-    [self.view addSubview:b];
-    [b enableDragging];
-    [self.view bringSubviewToFront:_imageView];
     
 }
 
