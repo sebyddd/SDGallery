@@ -18,8 +18,7 @@
 
 -(void)motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event {
     
-    NSArray *images = @[[UIImage imageNamed:@"1"], [UIImage imageNamed:@"2"]];
-    SDGallery *viewController = [[SDGallery alloc] initWithImages:images];
+    SDGallery *viewController = [[SDGallery alloc] initWithImagesURLs:@[@"https://placehold.it/900x600", @"https://placehold.it/500x700", @"https://images.unsplash.com/photo-1433769778268-24b797c4fc9a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=dd0a3dd2d153be0f28c6daa72cfb002c"]];
     viewController.sourceFrame = _imageView.frame;
     viewController.transitioningDelegate = self;
     [self presentViewController:viewController animated:YES completion:nil];

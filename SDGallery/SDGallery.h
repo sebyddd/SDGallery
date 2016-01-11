@@ -9,9 +9,12 @@
 #import <UIKit/UIKit.h>
 #import "SDGalleryTransition.h"
 
-@interface SDGallery : UIViewController <UICollectionViewDelegate, UICollectionViewDataSource>
+@interface SDGallery : UIViewController <UICollectionViewDelegate, UICollectionViewDataSource> {
+    BOOL usingImageURLs;
+}
 
 - (id)initWithImages:(NSArray *)images;
+- (id)initWithImagesURLs:(NSArray *)imagesURLs;
 
 @property (strong, nonatomic) UIImageView *currentlyVisibleImage;
 @property (strong, nonatomic) UIScrollView *currentlyVisibleScrollView;

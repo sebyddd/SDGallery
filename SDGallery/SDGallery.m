@@ -8,12 +8,21 @@
 
 #import "SDGallery.h"
 #import "SDGalleryCell.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 
 @implementation SDGallery
 
 - (id)initWithImages:(NSArray *)images {
     if (self = [super init]) {
         _images = images;
+    }
+    return self;
+}
+
+- (id)initWithImagesURLs:(NSArray *)imagesURLs {
+    if (self = [super init]) {
+        _images = imagesURLs;
+        usingImageURLs = YES;
     }
     return self;
 }
@@ -51,7 +60,13 @@
     if (!cell)
         cell = [[SDGalleryCell alloc] initWithFrame:collectionView.frame];
     
-    [cell setImage:_images[indexPath.row]];
+    if (usingImageURLs)
+        [cell.imageView sd_setImageWithURL:_images[indexPath.row] placeholderImage:[UIImage imageNamed:@"1"] completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+            [collectionView reloadItemsAtIndexPaths:@[indexPath]];
+        }];
+    else
+        [cell setImage:_images[indexPath.row]];
+    
     
     return cell;
 }
@@ -61,7 +76,7 @@
 }
 
 -(void)dismissGalleryToSource {
-
+    
     CGRect visibleRect = (CGRect){.origin = self.collectionView.contentOffset, .size = self.collectionView.bounds.size};
     CGPoint visiblePoint = CGPointMake(CGRectGetMidX(visibleRect), CGRectGetMidY(visibleRect));
     NSIndexPath *visibleIndexPath = [self.collectionView indexPathForItemAtPoint:visiblePoint];
