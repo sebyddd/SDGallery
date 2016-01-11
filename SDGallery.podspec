@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SDGallery"
-  s.version      = "0.1.4"
+  s.version      = "0.1.5"
   s.summary      = "Lightweight iOS Motion-Driven Image Browser."
   s.homepage     = "https://github.com/sebyddd/SDGallery"
   #s.screenshots  = "https://dl.dropboxusercontent.com/s/5ddx58dsex25x57/sdversion-logo.png?dl=0"
